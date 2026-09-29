@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="16 16 96 96">
+  <!-- JobDesk master icon · "Job check" · sibling of FlatDesk's "Home check": same tile, stroke weight and check. Full-bleed (no padding) for 48 px and in-page use -->
+  <defs><linearGradient id="tile" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7A5BD6"/><stop offset="1" stop-color="#2C1758"/></linearGradient></defs>
+  <rect x="16" y="16" width="96" height="96" rx="22" fill="url(#tile)"/>
+  <rect x="16.5" y="16.5" width="95" height="95" rx="21.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.10"/>
+  <!-- handle -->
+  <path d="M52 49 L52 43.5 Q52 37 58.5 37 L69.5 37 Q76 37 76 43.5 L76 49" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- case -->
+  <rect x="35" y="49" width="58" height="44" rx="9" fill="none" stroke="#FFFFFF" stroke-width="7.5" stroke-linejoin="round"/>
+  <!-- check = good-500 -->
+  <path d="M53 71 L61 79 L76 64" fill="none" stroke="#23A46A" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
